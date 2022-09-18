@@ -1,0 +1,289 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  /*Czcionka 10px*/
+}
+html body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+}
+html body .hero-shadow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+html body nav .nav-link {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+html body nav .navbar-toggler {
+  font-size: 3rem;
+}
+html body nav .navbar-brand {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+html body header {
+  font-size: 2rem;
+}
+html body header .carousel-item {
+  position: relative;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+html body header .carousel-img-one {
+  background-image: url("../img/index/car-1-mobile.jpg");
+}
+html body header .carousel-img-two {
+  background-image: url("../img/index/car-2-mobile.jpg");
+}
+html body header .carousel-img-three {
+  background-image: url("../img/index/car-3-mobile.jpg");
+}
+@media (min-width: 1400px) {
+  html body header .carousel-item {
+    height: 600px;
+  }
+  html body header .carousel-img-one {
+    background-image: url("../img/index/car-1-desktop.jpg");
+  }
+  html body header .carousel-img-two {
+    background-image: url("../img/index/car-2-desktop.jpg");
+  }
+  html body header .carousel-img-three {
+    background-image: url("../img/index/car-3-desktop.jpg");
+  }
+}
+html body main .home-boxes {
+  padding: 5em 0;
+}
+html body main .home-boxes .home-box i {
+  font-size: 4rem;
+}
+html body main .home-boxes .home-box h3 {
+  font-size: 2.6rem;
+}
+html body main .home-passion {
+  position: relative;
+  height: 350px;
+  background-image: url("../img/index/car-4-mobile.jpg");
+  background-position: center;
+  background-size: cover;
+  z-index: 0;
+}
+@media (min-width: 1400px) {
+  html body main .home-passion {
+    background-image: url("../img/index/car-4-desktop.jpg");
+  }
+}
+html body main .home-brand h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+html body main .top-hero {
+  position: relative;
+  height: 20rem;
+  background-size: cover;
+  z-index: 0;
+}
+html body main .top-hero-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+}
+html body main .aboutus-hero {
+  background-image: url("../img/aboutus/highway-mobile.jpg");
+  background-position: bottom;
+}
+@media (min-width: 1400px) {
+  html body main .aboutus-hero {
+    background-image: url("../img/aboutus/highway-desktop.jpg");
+  }
+}
+html body main .aboutus-top .display-3 {
+  text-transform: uppercase;
+}
+html body main .aboutus-info {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+html body main .aboutus-info .container {
+  padding: 2em 0.5em;
+}
+html body main .aboutus-info .aboutus-text {
+  padding: 1.8em;
+}
+html body main .aboutus-info .aboutus-text h3 {
+  margin-bottom: 0.5em;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  -webkit-text-decoration: underline #0d6efd;
+          text-decoration: underline #0d6efd;
+}
+html body main .aboutus-info .aboutus-img {
+  height: 300px;
+  background-image: url("../img/aboutus/ferrari-mobile.jpg");
+  background-position: center;
+  background-size: cover;
+}
+@media (min-width: 1400px) {
+  html body main .aboutus-info .aboutus-img {
+    background-image: url("../img/aboutus/ferrari-desktop.jpg");
+  }
+}
+html body main .aboutus-info .aboutus-text-right {
+  text-align: right;
+}
+@media (min-width: 992px) {
+  html body main .aboutus-info .container {
+    padding: 0;
+  }
+  html body main .aboutus-info .aboutus-text {
+    padding: 5em 0;
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+  html body main .aboutus-info .aboutus-text-left {
+    padding-right: 2em;
+    text-align: right;
+  }
+  html body main .aboutus-info .aboutus-text-right {
+    padding-left: 2em;
+    text-align: left;
+  }
+  html body main .aboutus-info .aboutus-img {
+    height: auto;
+    -webkit-transform: skew(-15deg);
+            transform: skew(-15deg);
+  }
+}
+@media (min-width: 992px) {
+  html body main .aboutus-shadow {
+    -webkit-box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.7);
+            box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.7);
+  }
+}
+html body main .aboutus-bottom i {
+  font-size: 3rem;
+}
+html body main .aboutus-bottom h3 {
+  font-weight: bold;
+}
+html body main .service-hero {
+  background-image: url("../img/services/car.jpg");
+  background-position: 0 75%;
+}
+html body main .service-hero-box {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  z-index: 0;
+}
+html body main .service-hero-box p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+html body main .service-pricing .box-one {
+  background-image: url("../img/services/engine.jpg");
+}
+html body main .service-pricing .box-two {
+  background-image: url("../img/services/visual.jpg");
+}
+html body main .service-pricing .box-three {
+  background-image: url("../img/services/car-audio.jpg");
+}
+html body main .service-pricing .box-four {
+  background-image: url("../img/services/all-in-one.jpg");
+}
+html body main .service-pricing .card-header {
+  font-size: 2rem;
+  cursor: pointer;
+}
+html body main .service-pricing h3 {
+  font-weight: bold;
+}
+html body main .service-pricing .btn {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+html body main .projects-hero {
+  background-image: url(../img/projects/project-hero.jpg);
+  background-position: center;
+}
+html body main .projects img {
+  height: 240px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+html body main .projects .btn {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+html body main .contact-hero {
+  background-image: url("../img/contact/contact-hero-mobile.jpg");
+  background-position: 0 40%;
+}
+@media (min-width: 1400px) {
+  html body main .contact-hero {
+    background-image: url("../img/contact/contact-hero-desktop.jpg");
+  }
+}
+html body main .contact h2,
+html body main .contact h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+html body main .contact h2 {
+  font-size: 2.6rem;
+}
+html body main .contact .contact-logo {
+  font-size: 3rem;
+}
+html body main .contact input,
+html body main .contact select,
+html body main .contact textarea {
+  font-size: 1.6rem;
+}
+html body main .contact .btn {
+  padding: 0.3em 0.8em;
+  font-size: 2rem;
+}
+html body main .contact-map iframe {
+  width: 100%;
+  height: 400px;
+}
+html body footer {
+  font-size: 1.6rem;
+}
+html body .additional-text {
+  font-size: 1.8rem;
+}/*# sourceMappingURL=style.css.map */
